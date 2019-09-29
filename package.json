@@ -1,0 +1,38 @@
+{
+  "name": "bigcommerce-oauth",
+  "version": "1.0.0",
+  "description": "Testing wit BigCommerce OAuth",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangyao/bigcommerce-oauth.git"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-body": "^4.0.8",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "config": "^1.30.0",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "streaming-json-stringify": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-aftership": "^5.0.0"
+  },
+  "keywords": [
+    "bigCommerce",
+    "OAuth"
+  ],
+  "author": "yangyao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangyao/bigcommerce-oauth/issues"
+  },
+  "homepage": "https://github.com/yangyao/bigcommerce-oauth#readme"
+}
